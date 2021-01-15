@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "배워가는 학생"
   location         : "Seoul Nat'l Univ."
-  email            :
+  email            : "okht13@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
