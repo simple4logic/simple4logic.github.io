@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-28T02:15:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stellarium</title><subtitle>A Place for Memory.</subtitle><author><name>Hyuntae H</name><email>okht13@gmail.com</email></author><entry><title type="html">테스트 포스팅1</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="테스트 포스팅1" /><published>2017-11-28T00:00:00+09:00</published><updated>2021-01-15T22:05:34+09:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-28T02:44:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Stellarium</title><subtitle>A Place for Memory.</subtitle><author><name>Hyuntae H</name><email>okht13@gmail.com</email></author><entry><title type="html">test report by myself</title><link href="http://localhost:4000/jekyll/test-post/" rel="alternate" type="text/html" title="test report by myself" /><published>2021-02-28T00:00:00+09:00</published><updated>2021-02-28T22:05:34+09:00</updated><id>http://localhost:4000/jekyll/test-post</id><content type="html" xml:base="http://localhost:4000/jekyll/test-post/">&lt;h1 id=&quot;테스트-포스팅&quot;&gt;테스트 포스팅&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;시작&quot;&gt;시작&lt;/h2&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;이건 테스트를 위한 포스팅이다.&lt;/p&gt;
+
+&lt;p&gt;C에서 hello world를 print하는 방법에 대한 포스팅을 해보겠다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;printf(&quot;hello world!&quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;주의:&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;semi-colon ';'&lt;/code&gt;을 빼먹지 않도록 한다.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;algolia&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# Exclude more files from indexing&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;files_to_exclude&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.html&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;index.md&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;excluded-file.html&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2017-11-28-post-exclude-search.md&lt;/span&gt;
+    &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;subdirectory/*.html&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;리뷰 도중 생긴 궁금증&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yaml&lt;/code&gt;을 삽입하면 색상이 유지되는데 어떤 문법인가?&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;</content><author><name>Hyuntae H</name><email>okht13@gmail.com</email></author><category term="Jekyll" /><summary type="html">테스트 포스팅 시작</summary></entry><entry><title type="html">테스트 포스팅1</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="테스트 포스팅1" /><published>2017-11-28T00:00:00+09:00</published><updated>2021-01-15T22:05:34+09:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
