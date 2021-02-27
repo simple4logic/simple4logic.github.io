@@ -1,5 +1,5 @@
 ---
-title:  "테스트 포스팅1"
+title:  "디폴트 포스팅"
 search: false
 categories: 
   - Jekyll

@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>test report by myself - Stellarium</title>
-<meta name="description" content="테스트 포스팅         시작">
+<!-- begin _includes/seo.html --><title>깃헙 파일 업로드 방법 정리 - Stellarium</title>
+<meta name="description" content="깃헙 기본 명령어">
 
 
   <meta name="author" content="Hyuntae H">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="Stellarium">
-<meta property="og:title" content="test report by myself">
-<meta property="og:url" content="http://localhost:4000/jekyll/test-post/">
+<meta property="og:title" content="깃헙 파일 업로드 방법 정리">
+<meta property="og:url" content="http://localhost:4000/jekyll/post2/">
 
 
-  <meta property="og:description" content="테스트 포스팅         시작">
+  <meta property="og:description" content="깃헙 기본 명령어">
 
 
 
@@ -47,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/jekyll/test-post/">
+<link rel="canonical" href="http://localhost:4000/jekyll/post2/">
 
 
 
@@ -273,15 +273,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="test report by myself">
-    <meta itemprop="description" content="테스트 포스팅      시작  ">
+    <meta itemprop="headline" content="깃헙 파일 업로드 방법 정리">
+    <meta itemprop="description" content="깃헙 기본 명령어">
     <meta itemprop="datePublished" content="2021-02-28T00:00:00+09:00">
     <meta itemprop="dateModified" content="2021-02-28T22:05:34+09:00">
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">test report by myself
+          <h1 id="page-title" class="page__title" itemprop="headline">깃헙 파일 업로드 방법 정리
 </h1>
           
 
@@ -309,38 +309,53 @@
 
       <section class="page__content" itemprop="text">
         
-        <h1 id="테스트-포스팅">테스트 포스팅</h1>
+        <h1 id="깃헙-기본-명령어">깃헙 기본 명령어</h1>
+
+<p>깃헙 업로드를 위한 간단한 명령어 정리
+<br />
+<br />
+***</p>
+
 <ol>
   <li>
-    <h2 id="시작">시작</h2>
+    <h2 id="git-bash-실행"><strong>git bash</strong> 실행</h2>
+    <p>\simple4logic.github.io 로 이동 후 git bash 실행 <br />
+<br />
+<br />
+***</p>
+  </li>
+  <li>
+    <h2 id="명령어-입력">명령어 입력</h2>
   </li>
 </ol>
 
-<p>이건 테스트를 위한 포스팅이다.</p>
-
-<p>C에서 hello world를 print하는 방법에 대한 포스팅을 해보겠다.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>printf("hello world!");
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status
 </code></pre></div></div>
-
-<p><strong>주의:</strong> <code class="language-plaintext highlighter-rouge">semi-colon ';'</code>을 빼먹지 않도록 한다.</p>
-
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">algolia</span><span class="pi">:</span>
-  <span class="c1"># Exclude more files from indexing</span>
-  <span class="na">files_to_exclude</span><span class="pi">:</span>
-    <span class="pi">-</span> <span class="s">index.html</span>
-    <span class="pi">-</span> <span class="s">index.md</span>
-    <span class="pi">-</span> <span class="s">excluded-file.html</span>
-    <span class="pi">-</span> <span class="s">_posts/2017-11-28-post-exclude-search.md</span>
-    <span class="pi">-</span> <span class="s">subdirectory/*.html</span>
-</code></pre></div></div>
-
 <blockquote>
-  <p>리뷰 도중 생긴 궁금증</p>
-  <blockquote>
-    <p><code class="language-plaintext highlighter-rouge">yaml</code>을 삽입하면 색상이 유지되는데 어떤 문법인가?</p>
-  </blockquote>
+  <p>파일 변경 상태를 알려주는 명령어 
+<br /></p>
 </blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+</code></pre></div></div>
+<blockquote>
+  <p>어떤 파일을 올릴지 결정하는? 명령어
+<br /></p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit -m "commit한 내용"
+</code></pre></div></div>
+<blockquote>
+  <p>commit해서 staging area로 올리고, 어떤 commit을 했는지 설명하는 명령어
+<br /></p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push
+</code></pre></div></div>
+<blockquote>
+  <p>실제로 깃헙 서버에 올리는 명령어</p>
+</blockquote>
+
 
         
       </section>
@@ -380,18 +395,18 @@
     <h4 class="page__share-title">공유하기</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=test+report+by+myself%20http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Ftest-post%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=%EA%B9%83%ED%97%99+%ED%8C%8C%EC%9D%BC+%EC%97%85%EB%A1%9C%EB%93%9C+%EB%B0%A9%EB%B2%95+%EC%A0%95%EB%A6%AC%20http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Fpost2%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Ftest-post%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Fpost2%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Ftest-post%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fjekyll%2Fpost2%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/jekyll/post-exclude-search/" class="pagination--pager" title="테스트 포스팅1
+      <a href="/jekyll/post1/" class="pagination--pager" title="테스트 포스팅 1
 ">이전</a>
     
     
@@ -419,7 +434,53 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/jekyll/post-exclude-search/" rel="permalink">테스트 포스팅1
+        <a href="/jekyll/post1/" rel="permalink">테스트 포스팅 1
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">테스트 포스팅
+
+  
+    시작
+  
+
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/jekyll/post-exclude-search/" rel="permalink">디폴트 포스팅
 </a>
       
     </h2>
