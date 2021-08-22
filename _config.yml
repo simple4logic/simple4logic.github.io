@@ -1,65 +1,122 @@
---- 
-algolia: 
-  application_id: ~
-  index_name: ~
-  powered_by: ~
-  search_only_api_key: ~
-analytics: 
-  google: 
-    anonymize_ip: ~
-    tracking_id: ~
-  provider: false
-atom_feed: 
-  path: ~
-author: 
-  avatar: ~
-  bio: "배워가는 학생<br>21.03.29~22.09.28 군대"
-  email: okht13@gmail.com
-  links: 
-    - "label:\"GitHub\" icon:\"fab fa-fw fa-github\" url:\"https://github.com/simple4logic"
-  location: "Seoul Nat'l Univ."
-  name: "Hyuntae H"
-baseurl: ""
-bing_site_verification: ~
-category_archive: 
-  path: /categories/
-  type: liquid
-comments: 
-  discourse: 
-    server: ~
-  disqus: 
-    shortname: ~
-  facebook: 
-    appid: ~
-    colorscheme: ~
-    num_posts: ~
-  provider: ~
-  staticman: 
-    branch: ~
-    endpoint: ~
-  utterances: 
-    issue_term: ~
-    theme: ~
-compress_html: 
-  clippings: all
-  ignore: 
-    envs: development
-defaults: 
-  - 
-    scope: 
-      path: ""
-      type: posts
-    values: 
-      author_profile: true
-      comments: ~
-      layout: single
-      read_time: false
-      related: true
-      share: true
-description: "A Place for Memory."
-encoding: utf-8
-excerpt_separator: "\n\n"
-exclude: 
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "ko-KR"
+title                    : "Stellarium"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Hyuntae H"
+description              : "배워가는 학생<br>21.03.29~22.09.28 군대"
+url                      : "https://simple4logic.github.io"
+baseurl                  : # 서브 경로가 있는 경우 기재
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/logo.jpg"
+logo                     : # 최상단 메뉴 바에 사이트 로고 넣기
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : false # 블로그 댓글 기능 false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : false # 블로그 댓글 기능 https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/logo.jpg"
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : # 구글 어날리틱스 등록 false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : 
+    anonymize_ip         : # true, false (default)
+
+# Site Author
+author:
+  name             : "Hyuntae H"
+  avatar           : "/assets/images/logo.jpg"
+  bio              : "배워가는 학생<br>21.03.29~22.09.28 군대"
+  location         : "Seoul Nat'l Univ."
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "okht13@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/simple4logic"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/simple4logic"
+      
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -84,103 +141,126 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs
-  - /test
-facebook: 
-  app_id: ~
-  publisher: ~
-  username: ~
-footer: 
-  links: 
-    - 
-      icon: "fab fa-fw fa-twitter-square"
-      label: Twitter
-    - 
-      icon: "fab fa-fw fa-facebook-square"
-      label: Facebook
-    - 
-      icon: "fab fa-fw fa-github"
-      label: GitHub
-    - 
-      icon: "fab fa-fw fa-gitlab"
-      label: GitLab
-    - 
-      icon: "fab fa-fw fa-bitbucket"
-      label: Bitbucket
-    - 
-      icon: "fab fa-fw fa-instagram"
-      label: Instagram
-google: 
-  instant_search: ~
-  search_engine_id: ~
-google_site_verification: ~
-highlighter: rouge
-include: 
-  - .htaccess
-  - _pages
-incremental: false
-keep_files: 
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
   - .git
   - .svn
-kramdown: 
-  auto_ids: true
-  enable_coderay: false
-  entity_output: as_char
-  footnote_nr: 1
-  hard_wrap: false
-  input: GFM
-  smart_quotes: "lsquo,rsquo,ldquo,rdquo"
-  toc_levels: "1..6"
-locale: ko-KR
-logo: /assets/images/logo.jpg
-lsi: false
-markdown: kramdown
+encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-masthead_title: ~
-minimal_mistakes_skin: dark
-name: "Hyuntae H"
-naver_site_verification: ~
-og_image: ~
-paginate: 5
-paginate_path: "/page:num/"
-permalink: "/:categories/:title/"
-plugins: 
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-reCaptcha: 
-  secret: ~
-  siteKey: ~
-remote_theme: mmistakes/minimal-mistakes
-repository: ~
-sass: 
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
   sass_dir: _sass
-  style: compressed
-search: ~
-search_full_content: ~
-search_provider: ~
-social: 
-  links: ~
-  name: ~
-  type: ~
-subtitle: ~
-tag_archive: 
-  path: /tags/
-  type: liquid
-teaser: ~
-timezone: ~
-title: Stellarium
-title_separator: "-"
-twitter: 
-  username: ~
-url: "https://simple4logic.github.io"
-whitelist: 
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # 첫 페이지에보여줄 최근 게시물 수를 지정
+paginate_path: /page:num/
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-words_per_minute: 200
-yandex_site_verification: ~
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc_ads: true
+      toc_sticky: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
