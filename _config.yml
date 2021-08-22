@@ -13,20 +13,10 @@ atom_feed:
   path: ~
 author: 
   avatar: ~
-  bio: "배워가는 학생"
+  bio: "배워가는 학생<br>21.03.29~22.09.28 in 군대"
   email: okht13@gmail.com
   links: 
-    - 
-      icon: "fas fa-fw fa-envelope-square"
-      label: Email
-    - 
-      icon: "fas fa-fw fa-link"
-      label: Website
-    - 
-      icon: "fab fa-fw fa-facebook-square"
-      label: Facebook
     - "label:\"GitHub\" icon:\"fab fa-fw fa-github\" url:\"https://github.com/simple4logic"
-    - "label:\"Instagram\" icon:\"fab fa-fw fa-instagram\""
   location: "Seoul Nat'l Univ."
   name: "Hyuntae H"
 baseurl: ""
