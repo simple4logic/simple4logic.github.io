@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Posts"
-    url: /_posts/
+    url: /month-archive/
   - title: "Categories"
     url: /categories/
   # - title: "Sample Collections"
