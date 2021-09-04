@@ -1,2 +1,3 @@
 # simple4logic.github.io
-place for memory
+
+배운 것을 정리하는 나만의 메모장
