@@ -29,11 +29,6 @@ layout: default
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% include page__meta.html %}
         </header>
-
-        {% if post.date %}
-          <span class="page__date"><i class="far fa-clock" aria-hidden="true"></i>{{ post.date | date: "%Y-%M-%d" }}</span>
-        {% endif %}
-        
       {% endunless %}
 
       <section class="page__content" itemprop="text">
