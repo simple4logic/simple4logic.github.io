@@ -6,6 +6,9 @@ categories:
 
 tags:
   - posting
+
+
+excerpt: "포스팅 계획 1"
 ---
 
 ## 앞으로 써나갈 글들
