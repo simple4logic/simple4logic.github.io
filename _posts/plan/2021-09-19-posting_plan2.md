@@ -3,6 +3,9 @@ title:  "포스팅 계획 (21.09.19)"
 search: false
 categories: 
   - plan
+
+tags:
+  - posting
 ---
 
 ## 앞으로 써나갈 글들
