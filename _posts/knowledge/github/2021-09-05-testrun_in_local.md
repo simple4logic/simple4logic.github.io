@@ -4,8 +4,8 @@ search: false
 categories: 
   - knowledge
 tags:
-  - blog
   - github
+  - local_run
 
 excerpt: "로컬 서버에서 확인"
 ---
