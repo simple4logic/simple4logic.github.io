@@ -4,7 +4,6 @@ search: false
 categories: 
   - knowledge
 tags:
-  - math
   - programming
 excerpt: "고급 지식"
 ---
