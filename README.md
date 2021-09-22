@@ -1,3 +1,3 @@
-# simple4logic.github.io
+# Stellarium
 
-배운 것을 정리하는 나만의 메모장
+배움의 메모장
