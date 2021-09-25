@@ -4,6 +4,8 @@ main:
     url: /month-archive/
   - title: "Categories"
     url: /categories/
+  - title: "About"
+    url: /about/ 
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
