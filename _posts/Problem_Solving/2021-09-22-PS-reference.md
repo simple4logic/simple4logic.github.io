@@ -2,11 +2,12 @@
 title:  "Problem Solving의 시작"
 search: false
 categories: 
-  - knowledge
+  - Problem_Solving
 tags:
-  - problem_solving
   - programming
+  - Algorithm
 excerpt: "알고리즘 공부를 시작해보자"
+toc : true
 ---
 
 ## 알고리즘 공부 시작에 앞에서 참고해야할 블로그들  

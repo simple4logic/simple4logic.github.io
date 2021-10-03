@@ -2,10 +2,12 @@
 title:  "참고하면 좋을 링크"
 search: false
 categories: 
-  - knowledge
+  - Problem_Solving
 tags:
   - programming
+  - Algorithm
 excerpt: "고급 지식"
+toc : true
 ---
 
 ## 참고하면 좋을 글들이 올라오는 링크
