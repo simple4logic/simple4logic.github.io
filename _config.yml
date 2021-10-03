@@ -239,6 +239,15 @@ compress_html:
 
 # Defaults
 defaults:
+  # default
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: doc
+
   # _posts
   - scope:
       path: ""
@@ -253,6 +262,8 @@ defaults:
       related: true
       toc_ads: true
       toc_sticky: true
+      sidebar:
+        nav: doc
 
   # _pages
   - scope:
@@ -265,11 +276,5 @@ defaults:
       comments: false
       share: false
       related: false
-
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
       sidebar:
-        nav: docs
+        nav: doc
