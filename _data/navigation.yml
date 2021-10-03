@@ -8,12 +8,16 @@ main:
     url: /categories/ 
 
 doc:
-  - title : Broad Knowledge
-    url: /categories/#broad-knowledge
-  - title : C++ Practice
-    url : /categories/#C++_Practice
-  - title : C++ Memo
-    url : /categories/#C++_MEMO
-  - title : Plan
-    url : /categories/#plan
-  
+  - title: C++
+    children:
+      - title : C++ Memo
+        url : /categories/#C++_MEMO
+      - title : C++ Practice
+        url : /categories/#C++_Practice
+
+  - title : etc      
+    children:
+      - title : Broad Knowledge
+        url : /categories/#broad-knowledge
+      - title : Plan
+        url : /categories/#plan
