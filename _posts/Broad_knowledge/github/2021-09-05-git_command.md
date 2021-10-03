@@ -2,10 +2,11 @@
 title:  "github에 파일 업로드"
 search: false
 categories: 
-  - knowledge
+  - Broad_knowledge
 tags:
   - git
 excerpt: "기본적인 git 명령어"
+toc : true
 ---
 
 ##basic git commmand

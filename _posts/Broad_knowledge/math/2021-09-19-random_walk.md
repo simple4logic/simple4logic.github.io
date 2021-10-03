@@ -2,12 +2,12 @@
 title:  "Random Walk"
 search: false
 categories: 
-  - knowledge
+  - Broad_knowledge
 tags:
   - math
-  - random
-  - 확률론
+  - probability_theory
 excerpt: "랜덤워크란?"
+toc : true
 ---
 
 ## 기본 개념

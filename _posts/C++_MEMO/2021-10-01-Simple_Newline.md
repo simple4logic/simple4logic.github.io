@@ -2,13 +2,13 @@
 title:  "빠른 개행"
 search: false
 categories: 
-  - PS
+  - C++_MEMO
 tags:
-  - problem_solving
   - programming
-  - knowledge
   - I/O
+  - C++
 excerpt: "puts()"
+toc : true
 ---
 
 # 빠른 개행의 방법

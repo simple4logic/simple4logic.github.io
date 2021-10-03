@@ -5,7 +5,6 @@ categories:
   - plan
 tags:
   - blog
-  - sub
 
 excerpt: "세번째 수정 계획"
 ---

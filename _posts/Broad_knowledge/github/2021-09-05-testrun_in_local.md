@@ -2,12 +2,14 @@
 title:  "테스트 구동 방법"
 search: false
 categories: 
-  - knowledge
+  - Broad_knowledge
 tags:
   - github
   - local_run
 
 excerpt: "로컬 서버에서 확인"
+
+toc : true
 ---
 
 ## windows powershell을 이용하는 방법

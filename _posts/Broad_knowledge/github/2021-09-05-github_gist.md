@@ -2,9 +2,10 @@
 title:  "Github gist"
 search: false
 categories: 
-  - knowledge
+  - Broad_knowledge
 tags:
   - github_gist
+toc : true
 
 excerpt: "간단한 코드 메모엔 gist를 써보자!"
 ---
