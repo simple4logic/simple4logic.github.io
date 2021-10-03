@@ -6,7 +6,14 @@ main:
     url: /month-archive/
   - title: "Categories"
     url: /categories/ 
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+
+doc:
+  - title : Broad Knowledge
+    url: /categories/#broad-knowledge
+  - title : C++ Practice
+    url : /categories/#C++_Practice
+  - title : C++ Memo
+    url : /categories/#C++_MEMO
+  - title : Plan
+    url : /categories/#plan
+  
