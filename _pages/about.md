@@ -7,7 +7,7 @@ search: false
 
 ### Profile
 - Name : Hyuntae, Hwang
-- In Military Service : 2021.03.29 ~ 2022.09.28
+- Serving Mandatory Military Service : 2021.03.29 ~ 2022.09.28
 
 ### Education
 - Seoul Nat'l University
