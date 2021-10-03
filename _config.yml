@@ -265,3 +265,11 @@ defaults:
       comments: false
       share: false
       related: false
+
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
