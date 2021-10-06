@@ -11,9 +11,9 @@ doc:
   - title: C++
     children:
       - title : C++ Memo
-        url : /categories/#C++_MEMO
+        url : /categories/#c++_memo
       - title : C++ Practice
-        url : /categories/#C++_Practice
+        url : /categories/#c++_practice
 
   - title : etc      
     children:
@@ -22,6 +22,6 @@ doc:
       - title : Plan
         url : /categories/#plan
       - title : Diary
-        url : /categories/#Daily_Record
+        url : /categories/#daily_record
       - title : Book Review
         url : /categories/#book_review
