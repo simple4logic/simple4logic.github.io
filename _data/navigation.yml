@@ -7,6 +7,8 @@ main:
   - title: "Categories"
     url: /categories/ 
 
+#url에는 title에 대소문자가 섞여있어도 무조건 lowercase로 적아야만 한다.
+
 doc:
   - title: C++
     children:
