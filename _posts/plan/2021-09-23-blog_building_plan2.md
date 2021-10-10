@@ -1,5 +1,5 @@
 ---
-title:  "블로그 수정 계획 (21.09.23)"
+title:  "블로그 수정 계획 #2 (21.09.23)"
 search: false
 categories: 
   - plan
