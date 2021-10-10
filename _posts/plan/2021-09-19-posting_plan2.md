@@ -1,5 +1,5 @@
 ---
-title:  "포스팅 계획 2 (21.09.19)"
+title:  "포스팅 계획 #2 (21.09.19)"
 search: false
 categories: 
   - plan
