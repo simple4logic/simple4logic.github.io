@@ -260,8 +260,8 @@ defaults:
       comments: true
       share: false
       related: true
-      toc : true #origianlly X
-      toc_ads: false #true
+      toc : true #toc를 디폴트로 넣어주는 옵션
+      toc_ads: false #true 
       toc_sticky: false #true
       sidebar:
         nav: doc
