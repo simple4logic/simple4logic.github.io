@@ -261,8 +261,8 @@ defaults:
       share: false
       related: true
       toc : true #toc를 디폴트로 넣어주는 옵션
-      toc_ads: false #true 
-      toc_sticky: false #true
+      toc_ads: true 
+      toc_sticky: true
       sidebar:
         nav: doc
 
