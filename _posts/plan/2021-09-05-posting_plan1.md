@@ -1,5 +1,5 @@
 ---
-title:  "포스팅 계획 (21.09.05)"
+title:  "포스팅 계획 1 (21.09.05)"
 search: false
 categories: 
   - plan
@@ -8,7 +8,7 @@ tags:
   - posting
 
 
-excerpt: "포스팅 계획 1"
+excerpt: "posting plan #1"
 ---
 
 ## 앞으로 써나갈 글들
