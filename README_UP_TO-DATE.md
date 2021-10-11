@@ -1,8 +1,6 @@
-1. 카테고리가 제대로 추가되지 않는 오류
+1. 파이썬의 동작 구조에 대해 다루는 포스팅 작성
 
-github
-> https://github.com/ansohxxn/ansohxxn.github.io/blob/master/_includes/nav_list_main
-> https://github.com/ansohxxn/ansohxxn.github.io/blob/master/_data/navigation.yml
+>https://cjh5414.github.io/about-python-and-how-python-works/ 
 
-본진
-> https://ansohxxn.github.io/categories/
+파이썬이 어떻게 동작하는지 이해하고 배우기 시작할 것.  
+파이썬은 통상적이 compiler언어가 아닌걸 최근에야 알았다....
