@@ -24,6 +24,6 @@ doc:
       - title : Plan
         url : /categories/#plan
       - title : Diary
-        url : /categories/#daily_record
+        url : /categories/daily_record/#blog_developing_diary
       - title : Book Review
         url : /categories/#book_review
