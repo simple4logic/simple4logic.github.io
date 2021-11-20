@@ -14,8 +14,8 @@ doc:
     children:
       - title : C++ Memo
         url : /categories/#c++_memo
-      - title : C++ Practice
-        url : /categories/#c++_practice
+      - title : BOJ Practice
+        url : /categories/#boj_practice
 
   - title : etc      
     children:
