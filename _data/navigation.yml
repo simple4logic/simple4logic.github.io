@@ -8,12 +8,13 @@ main:
     url: /categories/ 
 
 #url에는 title에 대소문자가 섞여있어도 무조건 lowercase로 적아야만 한다.
+# url에 underscore("_")가 있으면 눌러도 이동하지 못한다. 띄어쓰기는 무조건 hyphen("-")으로 처리하자!
 
 doc:
   - title: C++
     children:
       - title : C++ Memo
-        url : /categories/#c++_memo
+        url : /categories/#c++-memo
       - title : BOJ Practice
         url : /categories/#boj-practice
 
