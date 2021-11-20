@@ -22,6 +22,8 @@ doc:
     children:
       - title : BOJ Practice
         url : /categories/#boj-practice
+      - title : Python Algorithm Book
+        url : /categories/#python-algorithm
 
 
   - title : ETC    
