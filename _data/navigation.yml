@@ -17,6 +17,11 @@ doc:
       - title : BOJ Practice
         url : /categories/#boj_practice
 
+  - title: Python
+    children:
+      - title : Python Memo
+        url : /categories/#python_memo
+
   - title : etc      
     children:
       - title : Broad Knowledge
