@@ -25,7 +25,7 @@ doc:
   - title : etc      
     children:
       - title : Broad Knowledge
-        url : /categories/#broad_knowledge
+        url : /categories/#broad-knowledge
       - title : Plan
         url : /categories/#plan
       - title : Diary
