@@ -13,14 +13,14 @@ doc:
   - title: C++
     children:
       - title : C++ Memo
-        url : /categories/#c++_memo
+        url : /categories/#c++-memo
       - title : BOJ Practice
-        url : /categories/#boj_practice
+        url : /categories/#boj-practice
 
   - title: Python
     children:
       - title : Python Memo
-        url : /categories/#python_memo
+        url : /categories/#python-memo
 
   - title : etc      
     children:
@@ -29,6 +29,6 @@ doc:
       - title : Plan
         url : /categories/#plan
       - title : Diary
-        url : /categories/#daily_record
+        url : /categories/#daily-record
       - title : Book Review
-        url : /categories/#book_review
+        url : /categories/#book-review
