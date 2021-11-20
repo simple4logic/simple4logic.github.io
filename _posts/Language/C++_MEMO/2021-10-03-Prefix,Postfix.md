@@ -2,7 +2,7 @@
 title:  "전위 연산자와 후위 연산자"
 search: false
 categories: 
-  - C++_MEMO
+  - Cpp_MEMO
 tags:
   - programming
   - Operator

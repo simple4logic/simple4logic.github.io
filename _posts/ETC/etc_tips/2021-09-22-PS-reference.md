@@ -2,7 +2,7 @@
 title:  "Problem Solving의 시작"
 search: false
 categories: 
-  - Problem_Solving
+  - etc_tips
 tags:
   - programming
   - Algorithm

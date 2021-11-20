@@ -2,7 +2,7 @@
 title:  "범위 기반 for 루프"
 search: false
 categories: 
-  - C++_MEMO
+  - Cpp_MEMO
 tags:
   - programming
   - C++

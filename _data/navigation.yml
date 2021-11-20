@@ -11,19 +11,20 @@ main:
 # url에 underscore("_")가 있으면 눌러도 이동하지 못한다. 띄어쓰기는 무조건 hyphen("-")으로 처리하자!
 
 doc:
-  - title: C++
+  - title: Language
     children:
       - title : C++ Memo
-        url : /categories/#c++-memo
-      - title : BOJ Practice
-        url : /categories/#boj-practice
-
-  - title: Python
-    children:
+        url : /categories/#cpp-memo
       - title : Python Memo
         url : /categories/#python-memo
 
-  - title : etc      
+  - title: Problem Solving
+    children:
+      - title : BOJ Practice
+        url : /categories/#boj-practice
+
+
+  - title : ETC    
     children:
       - title : Broad Knowledge
         url : /categories/#broad-knowledge
@@ -33,3 +34,5 @@ doc:
         url : /categories/#daily-record
       - title : Book Review
         url : /categories/#book-review
+      - title : other tips
+        url : /categories/#etc-tips

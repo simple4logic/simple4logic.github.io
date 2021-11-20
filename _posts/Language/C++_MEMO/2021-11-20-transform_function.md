@@ -2,7 +2,7 @@
 title:  "Transform Function"
 search: false
 categories: 
-  - C++_MEMO
+  - Cpp_MEMO
 tags:
   - programming
   - C++

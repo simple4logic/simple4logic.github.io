@@ -2,7 +2,7 @@
 title:  "Scanf 함수의 반환값"
 search: false
 categories: 
-  - C++_MEMO
+  - Cpp_MEMO
 tags:
   - programming
   - I/O

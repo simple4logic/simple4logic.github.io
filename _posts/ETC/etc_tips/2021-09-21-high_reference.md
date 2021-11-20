@@ -2,7 +2,7 @@
 title:  "참고하면 좋을 링크"
 search: false
 categories: 
-  - Problem_Solving
+  - etc_tips
 tags:
   - programming
   - Algorithm
