@@ -1,5 +1,5 @@
 ---
-title:  "map Function"
+title:  "Map Function"
 search: false
 categories: 
   - Python_MEMO
