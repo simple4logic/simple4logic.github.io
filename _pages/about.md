@@ -7,19 +7,23 @@ search: false
 
 ### Profile
 - Name : Hyuntae, Hwang
-- Serving Mandatory Military Service : 2021.03.29 ~ 2022.09.28
 
 ### Education
 - Seoul Nat'l University
 - Majoring Mechanical Engineering / System Semiconductor Engineering for AI
 
 ### Interest
-- Web (Responsive Web)
+- Web
 - Problem Solving
-- Server
-- Operating System
+- NLP
+- Databases
 
-의욕만 한참 앞서가는 그런 코린이입니다.  
+### Now I'm studying...
+- Flutter
+- PS using python
+
+이것저것 다 재밌어 보여서 일만 잔뜩 벌려놔서 수습하느라 힘든 코린입니다... 언젠가 고인물이 되는 날이 오겠죠?  
+
 I'm Newbie Programmer, just having too much ambition.  
 
 ___
